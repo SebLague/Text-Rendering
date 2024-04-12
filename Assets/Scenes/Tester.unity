@@ -1,0 +1,1637 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &359766907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359766909}
+  - component: {fileID: 359766908}
+  m_Layer: 0
+  m_Name: Test Creator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &359766908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359766907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d66dc2dc90e2af4a8fbd5b6f4ab2569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useCullingMasks: 1
+  fonts: 00000000030000000400000001000000
+  characters: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*{}?~
+  generate: 1
+  targetTestCountPerGlyph: 80
+  testBoxSizeMinMax: {x: 0.015, y: 0.2}
+  serializedData: 
+  testVisIndex: 190
+  lineThickness: 0.01
+--- !u!4 &359766909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359766907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1635227568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635227570}
+  - component: {fileID: 1635227569}
+  m_Layer: 0
+  m_Name: TestRunner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1635227569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635227568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf3ccadf700d07c4fa25b40d1bad7b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runTests: 1
+  quick: 1
+  quickStartIndex: 262
+  dataFile: {fileID: 4900000, guid: b5d2da0d92705c749b5726559394f907, type: 3}
+  compute: {fileID: 7200000, guid: fe1024fd577f31240aade9f108a5cdbd, type: 3}
+  display: {fileID: 1653862683}
+  crossReferenceWithPrevFailures: 1
+  fontSize: 27
+  visWholeGlyph: 0
+  visTestCase: 1
+  testCaseToVis:
+    testGlyphIndex: 0
+    resolutionIndex: 0
+    testWindowIndex: 0
+  bezierPointSizeMultiplier: 0.8
+  highlightThicknessMul: 3
+  bezHighlightIndex: 1
+  failedTestIds: []
+  failedTestIdsPrev:
+  - testGlyphIndex: 2
+    resolutionIndex: 2
+    testWindowIndex: 12
+  - testGlyphIndex: 2
+    resolutionIndex: 5
+    testWindowIndex: 12
+  - testGlyphIndex: 3
+    resolutionIndex: 4
+    testWindowIndex: 7
+  - testGlyphIndex: 3
+    resolutionIndex: 5
+    testWindowIndex: 9
+  - testGlyphIndex: 4
+    resolutionIndex: 2
+    testWindowIndex: 10
+  - testGlyphIndex: 4
+    resolutionIndex: 3
+    testWindowIndex: 27
+  - testGlyphIndex: 4
+    resolutionIndex: 3
+    testWindowIndex: 31
+  - testGlyphIndex: 4
+    resolutionIndex: 4
+    testWindowIndex: 10
+  - testGlyphIndex: 4
+    resolutionIndex: 4
+    testWindowIndex: 27
+  - testGlyphIndex: 4
+    resolutionIndex: 5
+    testWindowIndex: 10
+  - testGlyphIndex: 4
+    resolutionIndex: 5
+    testWindowIndex: 27
+  - testGlyphIndex: 6
+    resolutionIndex: 2
+    testWindowIndex: 23
+  - testGlyphIndex: 6
+    resolutionIndex: 3
+    testWindowIndex: 23
+  - testGlyphIndex: 6
+    resolutionIndex: 4
+    testWindowIndex: 23
+  - testGlyphIndex: 6
+    resolutionIndex: 4
+    testWindowIndex: 31
+  - testGlyphIndex: 6
+    resolutionIndex: 5
+    testWindowIndex: 23
+  - testGlyphIndex: 7
+    resolutionIndex: 4
+    testWindowIndex: 23
+  - testGlyphIndex: 7
+    resolutionIndex: 5
+    testWindowIndex: 23
+  - testGlyphIndex: 8
+    resolutionIndex: 3
+    testWindowIndex: 37
+  - testGlyphIndex: 8
+    resolutionIndex: 4
+    testWindowIndex: 37
+  - testGlyphIndex: 8
+    resolutionIndex: 5
+    testWindowIndex: 37
+  - testGlyphIndex: 9
+    resolutionIndex: 2
+    testWindowIndex: 7
+  - testGlyphIndex: 9
+    resolutionIndex: 4
+    testWindowIndex: 3
+  - testGlyphIndex: 9
+    resolutionIndex: 5
+    testWindowIndex: 7
+  - testGlyphIndex: 12
+    resolutionIndex: 5
+    testWindowIndex: 1
+  - testGlyphIndex: 13
+    resolutionIndex: 2
+    testWindowIndex: 27
+  - testGlyphIndex: 13
+    resolutionIndex: 5
+    testWindowIndex: 1
+  - testGlyphIndex: 14
+    resolutionIndex: 3
+    testWindowIndex: 8
+  - testGlyphIndex: 14
+    resolutionIndex: 3
+    testWindowIndex: 22
+  - testGlyphIndex: 14
+    resolutionIndex: 4
+    testWindowIndex: 8
+  - testGlyphIndex: 14
+    resolutionIndex: 4
+    testWindowIndex: 22
+  - testGlyphIndex: 14
+    resolutionIndex: 4
+    testWindowIndex: 28
+  - testGlyphIndex: 14
+    resolutionIndex: 5
+    testWindowIndex: 8
+  - testGlyphIndex: 14
+    resolutionIndex: 5
+    testWindowIndex: 22
+  - testGlyphIndex: 16
+    resolutionIndex: 2
+    testWindowIndex: 8
+  - testGlyphIndex: 16
+    resolutionIndex: 2
+    testWindowIndex: 43
+  - testGlyphIndex: 16
+    resolutionIndex: 3
+    testWindowIndex: 19
+  - testGlyphIndex: 16
+    resolutionIndex: 5
+    testWindowIndex: 8
+  - testGlyphIndex: 16
+    resolutionIndex: 5
+    testWindowIndex: 19
+  - testGlyphIndex: 17
+    resolutionIndex: 2
+    testWindowIndex: 32
+  - testGlyphIndex: 17
+    resolutionIndex: 5
+    testWindowIndex: 1
+  - testGlyphIndex: 18
+    resolutionIndex: 3
+    testWindowIndex: 25
+  - testGlyphIndex: 18
+    resolutionIndex: 4
+    testWindowIndex: 25
+  - testGlyphIndex: 18
+    resolutionIndex: 5
+    testWindowIndex: 25
+  - testGlyphIndex: 28
+    resolutionIndex: 3
+    testWindowIndex: 18
+  - testGlyphIndex: 28
+    resolutionIndex: 4
+    testWindowIndex: 18
+  - testGlyphIndex: 28
+    resolutionIndex: 4
+    testWindowIndex: 31
+  - testGlyphIndex: 28
+    resolutionIndex: 5
+    testWindowIndex: 31
+  - testGlyphIndex: 32
+    resolutionIndex: 3
+    testWindowIndex: 8
+  - testGlyphIndex: 32
+    resolutionIndex: 4
+    testWindowIndex: 3
+  - testGlyphIndex: 32
+    resolutionIndex: 4
+    testWindowIndex: 8
+  - testGlyphIndex: 32
+    resolutionIndex: 5
+    testWindowIndex: 3
+  - testGlyphIndex: 32
+    resolutionIndex: 5
+    testWindowIndex: 8
+  - testGlyphIndex: 32
+    resolutionIndex: 5
+    testWindowIndex: 41
+  - testGlyphIndex: 35
+    resolutionIndex: 2
+    testWindowIndex: 12
+  - testGlyphIndex: 35
+    resolutionIndex: 5
+    testWindowIndex: 12
+  - testGlyphIndex: 40
+    resolutionIndex: 4
+    testWindowIndex: 30
+  - testGlyphIndex: 42
+    resolutionIndex: 3
+    testWindowIndex: 45
+  - testGlyphIndex: 42
+    resolutionIndex: 4
+    testWindowIndex: 45
+  - testGlyphIndex: 44
+    resolutionIndex: 4
+    testWindowIndex: 14
+  - testGlyphIndex: 52
+    resolutionIndex: 2
+    testWindowIndex: 27
+  - testGlyphIndex: 52
+    resolutionIndex: 3
+    testWindowIndex: 27
+  - testGlyphIndex: 52
+    resolutionIndex: 4
+    testWindowIndex: 38
+  - testGlyphIndex: 52
+    resolutionIndex: 5
+    testWindowIndex: 27
+  - testGlyphIndex: 52
+    resolutionIndex: 5
+    testWindowIndex: 31
+  - testGlyphIndex: 52
+    resolutionIndex: 5
+    testWindowIndex: 38
+  - testGlyphIndex: 58
+    resolutionIndex: 4
+    testWindowIndex: 30
+  - testGlyphIndex: 60
+    resolutionIndex: 3
+    testWindowIndex: 7
+  - testGlyphIndex: 60
+    resolutionIndex: 3
+    testWindowIndex: 20
+  - testGlyphIndex: 60
+    resolutionIndex: 3
+    testWindowIndex: 32
+  - testGlyphIndex: 60
+    resolutionIndex: 4
+    testWindowIndex: 20
+  - testGlyphIndex: 60
+    resolutionIndex: 4
+    testWindowIndex: 57
+  - testGlyphIndex: 60
+    resolutionIndex: 5
+    testWindowIndex: 32
+  - testGlyphIndex: 60
+    resolutionIndex: 5
+    testWindowIndex: 57
+  - testGlyphIndex: 61
+    resolutionIndex: 3
+    testWindowIndex: 34
+  - testGlyphIndex: 61
+    resolutionIndex: 4
+    testWindowIndex: 34
+  - testGlyphIndex: 61
+    resolutionIndex: 5
+    testWindowIndex: 34
+  - testGlyphIndex: 62
+    resolutionIndex: 2
+    testWindowIndex: 10
+  - testGlyphIndex: 62
+    resolutionIndex: 3
+    testWindowIndex: 10
+  - testGlyphIndex: 62
+    resolutionIndex: 4
+    testWindowIndex: 10
+  - testGlyphIndex: 62
+    resolutionIndex: 5
+    testWindowIndex: 10
+  - testGlyphIndex: 63
+    resolutionIndex: 3
+    testWindowIndex: 16
+  - testGlyphIndex: 63
+    resolutionIndex: 3
+    testWindowIndex: 25
+  - testGlyphIndex: 63
+    resolutionIndex: 4
+    testWindowIndex: 16
+  - testGlyphIndex: 63
+    resolutionIndex: 4
+    testWindowIndex: 25
+  - testGlyphIndex: 63
+    resolutionIndex: 4
+    testWindowIndex: 26
+  - testGlyphIndex: 63
+    resolutionIndex: 5
+    testWindowIndex: 25
+  - testGlyphIndex: 66
+    resolutionIndex: 4
+    testWindowIndex: 29
+  - testGlyphIndex: 68
+    resolutionIndex: 2
+    testWindowIndex: 24
+  - testGlyphIndex: 68
+    resolutionIndex: 3
+    testWindowIndex: 9
+  - testGlyphIndex: 68
+    resolutionIndex: 3
+    testWindowIndex: 24
+  - testGlyphIndex: 68
+    resolutionIndex: 3
+    testWindowIndex: 31
+  - testGlyphIndex: 68
+    resolutionIndex: 4
+    testWindowIndex: 7
+  - testGlyphIndex: 68
+    resolutionIndex: 4
+    testWindowIndex: 9
+  - testGlyphIndex: 68
+    resolutionIndex: 5
+    testWindowIndex: 9
+  - testGlyphIndex: 68
+    resolutionIndex: 5
+    testWindowIndex: 31
+  - testGlyphIndex: 70
+    resolutionIndex: 3
+    testWindowIndex: 42
+  - testGlyphIndex: 70
+    resolutionIndex: 4
+    testWindowIndex: 21
+  - testGlyphIndex: 70
+    resolutionIndex: 5
+    testWindowIndex: 21
+  - testGlyphIndex: 72
+    resolutionIndex: 3
+    testWindowIndex: 20
+  - testGlyphIndex: 72
+    resolutionIndex: 4
+    testWindowIndex: 20
+  - testGlyphIndex: 72
+    resolutionIndex: 4
+    testWindowIndex: 22
+  - testGlyphIndex: 148
+    resolutionIndex: 2
+    testWindowIndex: 17
+  - testGlyphIndex: 148
+    resolutionIndex: 3
+    testWindowIndex: 3
+  - testGlyphIndex: 148
+    resolutionIndex: 3
+    testWindowIndex: 42
+  - testGlyphIndex: 148
+    resolutionIndex: 4
+    testWindowIndex: 13
+  - testGlyphIndex: 148
+    resolutionIndex: 4
+    testWindowIndex: 17
+  - testGlyphIndex: 148
+    resolutionIndex: 5
+    testWindowIndex: 3
+  - testGlyphIndex: 148
+    resolutionIndex: 5
+    testWindowIndex: 13
+  - testGlyphIndex: 148
+    resolutionIndex: 5
+    testWindowIndex: 17
+  - testGlyphIndex: 148
+    resolutionIndex: 5
+    testWindowIndex: 42
+  - testGlyphIndex: 150
+    resolutionIndex: 4
+    testWindowIndex: 32
+  - testGlyphIndex: 150
+    resolutionIndex: 4
+    testWindowIndex: 38
+  - testGlyphIndex: 150
+    resolutionIndex: 5
+    testWindowIndex: 9
+  - testGlyphIndex: 150
+    resolutionIndex: 5
+    testWindowIndex: 32
+  - testGlyphIndex: 151
+    resolutionIndex: 3
+    testWindowIndex: 19
+  - testGlyphIndex: 151
+    resolutionIndex: 3
+    testWindowIndex: 44
+  - testGlyphIndex: 151
+    resolutionIndex: 4
+    testWindowIndex: 19
+  - testGlyphIndex: 151
+    resolutionIndex: 4
+    testWindowIndex: 44
+  - testGlyphIndex: 151
+    resolutionIndex: 5
+    testWindowIndex: 19
+  - testGlyphIndex: 152
+    resolutionIndex: 3
+    testWindowIndex: 34
+  - testGlyphIndex: 152
+    resolutionIndex: 4
+    testWindowIndex: 13
+  - testGlyphIndex: 152
+    resolutionIndex: 4
+    testWindowIndex: 34
+  - testGlyphIndex: 152
+    resolutionIndex: 5
+    testWindowIndex: 13
+  - testGlyphIndex: 153
+    resolutionIndex: 2
+    testWindowIndex: 18
+  - testGlyphIndex: 153
+    resolutionIndex: 3
+    testWindowIndex: 18
+  - testGlyphIndex: 153
+    resolutionIndex: 4
+    testWindowIndex: 15
+  - testGlyphIndex: 153
+    resolutionIndex: 5
+    testWindowIndex: 25
+  - testGlyphIndex: 154
+    resolutionIndex: 2
+    testWindowIndex: 13
+  - testGlyphIndex: 154
+    resolutionIndex: 2
+    testWindowIndex: 47
+  - testGlyphIndex: 154
+    resolutionIndex: 3
+    testWindowIndex: 47
+  - testGlyphIndex: 154
+    resolutionIndex: 4
+    testWindowIndex: 13
+  - testGlyphIndex: 154
+    resolutionIndex: 4
+    testWindowIndex: 53
+  - testGlyphIndex: 154
+    resolutionIndex: 5
+    testWindowIndex: 47
+  - testGlyphIndex: 157
+    resolutionIndex: 2
+    testWindowIndex: 11
+  - testGlyphIndex: 157
+    resolutionIndex: 3
+    testWindowIndex: 17
+  - testGlyphIndex: 157
+    resolutionIndex: 5
+    testWindowIndex: 11
+  - testGlyphIndex: 164
+    resolutionIndex: 2
+    testWindowIndex: 40
+  - testGlyphIndex: 164
+    resolutionIndex: 4
+    testWindowIndex: 40
+  - testGlyphIndex: 164
+    resolutionIndex: 5
+    testWindowIndex: 26
+  - testGlyphIndex: 164
+    resolutionIndex: 5
+    testWindowIndex: 40
+  - testGlyphIndex: 165
+    resolutionIndex: 1
+    testWindowIndex: 27
+  - testGlyphIndex: 165
+    resolutionIndex: 3
+    testWindowIndex: 18
+  - testGlyphIndex: 165
+    resolutionIndex: 3
+    testWindowIndex: 27
+  - testGlyphIndex: 165
+    resolutionIndex: 4
+    testWindowIndex: 27
+  - testGlyphIndex: 165
+    resolutionIndex: 5
+    testWindowIndex: 27
+  - testGlyphIndex: 176
+    resolutionIndex: 3
+    testWindowIndex: 11
+  - testGlyphIndex: 176
+    resolutionIndex: 4
+    testWindowIndex: 11
+  - testGlyphIndex: 176
+    resolutionIndex: 5
+    testWindowIndex: 11
+  - testGlyphIndex: 178
+    resolutionIndex: 4
+    testWindowIndex: 7
+  - testGlyphIndex: 180
+    resolutionIndex: 3
+    testWindowIndex: 23
+  - testGlyphIndex: 180
+    resolutionIndex: 3
+    testWindowIndex: 47
+  - testGlyphIndex: 180
+    resolutionIndex: 4
+    testWindowIndex: 23
+  - testGlyphIndex: 180
+    resolutionIndex: 4
+    testWindowIndex: 47
+  - testGlyphIndex: 180
+    resolutionIndex: 5
+    testWindowIndex: 23
+  - testGlyphIndex: 183
+    resolutionIndex: 2
+    testWindowIndex: 31
+  - testGlyphIndex: 183
+    resolutionIndex: 3
+    testWindowIndex: 31
+  - testGlyphIndex: 183
+    resolutionIndex: 4
+    testWindowIndex: 15
+  - testGlyphIndex: 183
+    resolutionIndex: 4
+    testWindowIndex: 31
+  - testGlyphIndex: 183
+    resolutionIndex: 5
+    testWindowIndex: 31
+  - testGlyphIndex: 185
+    resolutionIndex: 2
+    testWindowIndex: 27
+  - testGlyphIndex: 185
+    resolutionIndex: 4
+    testWindowIndex: 27
+  - testGlyphIndex: 188
+    resolutionIndex: 2
+    testWindowIndex: 40
+  - testGlyphIndex: 188
+    resolutionIndex: 3
+    testWindowIndex: 40
+  - testGlyphIndex: 188
+    resolutionIndex: 4
+    testWindowIndex: 40
+  - testGlyphIndex: 188
+    resolutionIndex: 5
+    testWindowIndex: 40
+  - testGlyphIndex: 190
+    resolutionIndex: 2
+    testWindowIndex: 26
+  - testGlyphIndex: 190
+    resolutionIndex: 3
+    testWindowIndex: 68
+  - testGlyphIndex: 190
+    resolutionIndex: 4
+    testWindowIndex: 68
+  - testGlyphIndex: 190
+    resolutionIndex: 5
+    testWindowIndex: 46
+  - testGlyphIndex: 193
+    resolutionIndex: 5
+    testWindowIndex: 22
+  - testGlyphIndex: 200
+    resolutionIndex: 2
+    testWindowIndex: 37
+  - testGlyphIndex: 200
+    resolutionIndex: 3
+    testWindowIndex: 37
+  - testGlyphIndex: 200
+    resolutionIndex: 3
+    testWindowIndex: 49
+  - testGlyphIndex: 200
+    resolutionIndex: 4
+    testWindowIndex: 37
+  - testGlyphIndex: 200
+    resolutionIndex: 4
+    testWindowIndex: 49
+  - testGlyphIndex: 200
+    resolutionIndex: 5
+    testWindowIndex: 37
+  - testGlyphIndex: 200
+    resolutionIndex: 5
+    testWindowIndex: 49
+  - testGlyphIndex: 202
+    resolutionIndex: 2
+    testWindowIndex: 24
+  - testGlyphIndex: 202
+    resolutionIndex: 3
+    testWindowIndex: 32
+  - testGlyphIndex: 202
+    resolutionIndex: 4
+    testWindowIndex: 24
+  - testGlyphIndex: 202
+    resolutionIndex: 4
+    testWindowIndex: 32
+  - testGlyphIndex: 203
+    resolutionIndex: 3
+    testWindowIndex: 44
+  - testGlyphIndex: 203
+    resolutionIndex: 5
+    testWindowIndex: 44
+  - testGlyphIndex: 205
+    resolutionIndex: 3
+    testWindowIndex: 34
+  - testGlyphIndex: 205
+    resolutionIndex: 4
+    testWindowIndex: 34
+  - testGlyphIndex: 205
+    resolutionIndex: 5
+    testWindowIndex: 2
+  - testGlyphIndex: 205
+    resolutionIndex: 5
+    testWindowIndex: 11
+  - testGlyphIndex: 205
+    resolutionIndex: 5
+    testWindowIndex: 34
+  - testGlyphIndex: 206
+    resolutionIndex: 3
+    testWindowIndex: 31
+  - testGlyphIndex: 206
+    resolutionIndex: 4
+    testWindowIndex: 31
+  - testGlyphIndex: 206
+    resolutionIndex: 5
+    testWindowIndex: 24
+  - testGlyphIndex: 206
+    resolutionIndex: 5
+    testWindowIndex: 31
+  - testGlyphIndex: 209
+    resolutionIndex: 3
+    testWindowIndex: 20
+  - testGlyphIndex: 209
+    resolutionIndex: 3
+    testWindowIndex: 26
+  - testGlyphIndex: 209
+    resolutionIndex: 4
+    testWindowIndex: 20
+  - testGlyphIndex: 209
+    resolutionIndex: 4
+    testWindowIndex: 26
+  - testGlyphIndex: 209
+    resolutionIndex: 5
+    testWindowIndex: 20
+  - testGlyphIndex: 209
+    resolutionIndex: 5
+    testWindowIndex: 26
+  - testGlyphIndex: 210
+    resolutionIndex: 2
+    testWindowIndex: 18
+  - testGlyphIndex: 210
+    resolutionIndex: 3
+    testWindowIndex: 28
+  - testGlyphIndex: 210
+    resolutionIndex: 4
+    testWindowIndex: 18
+  - testGlyphIndex: 210
+    resolutionIndex: 4
+    testWindowIndex: 23
+  - testGlyphIndex: 210
+    resolutionIndex: 4
+    testWindowIndex: 28
+  - testGlyphIndex: 210
+    resolutionIndex: 5
+    testWindowIndex: 7
+  - testGlyphIndex: 210
+    resolutionIndex: 5
+    testWindowIndex: 23
+  - testGlyphIndex: 211
+    resolutionIndex: 3
+    testWindowIndex: 36
+  - testGlyphIndex: 211
+    resolutionIndex: 4
+    testWindowIndex: 36
+  - testGlyphIndex: 211
+    resolutionIndex: 4
+    testWindowIndex: 63
+  - testGlyphIndex: 211
+    resolutionIndex: 5
+    testWindowIndex: 36
+  - testGlyphIndex: 211
+    resolutionIndex: 5
+    testWindowIndex: 48
+  - testGlyphIndex: 213
+    resolutionIndex: 2
+    testWindowIndex: 28
+  - testGlyphIndex: 213
+    resolutionIndex: 5
+    testWindowIndex: 28
+  - testGlyphIndex: 214
+    resolutionIndex: 2
+    testWindowIndex: 21
+  - testGlyphIndex: 214
+    resolutionIndex: 3
+    testWindowIndex: 12
+  - testGlyphIndex: 214
+    resolutionIndex: 3
+    testWindowIndex: 21
+  - testGlyphIndex: 214
+    resolutionIndex: 4
+    testWindowIndex: 12
+  - testGlyphIndex: 214
+    resolutionIndex: 5
+    testWindowIndex: 12
+  - testGlyphIndex: 214
+    resolutionIndex: 5
+    testWindowIndex: 37
+  - testGlyphIndex: 216
+    resolutionIndex: 3
+    testWindowIndex: 37
+  - testGlyphIndex: 220
+    resolutionIndex: 3
+    testWindowIndex: 15
+  - testGlyphIndex: 220
+    resolutionIndex: 4
+    testWindowIndex: 15
+  - testGlyphIndex: 221
+    resolutionIndex: 5
+    testWindowIndex: 17
+  - testGlyphIndex: 222
+    resolutionIndex: 1
+    testWindowIndex: 4
+  - testGlyphIndex: 222
+    resolutionIndex: 2
+    testWindowIndex: 4
+  - testGlyphIndex: 222
+    resolutionIndex: 2
+    testWindowIndex: 29
+  - testGlyphIndex: 222
+    resolutionIndex: 4
+    testWindowIndex: 31
+  - testGlyphIndex: 222
+    resolutionIndex: 5
+    testWindowIndex: 4
+  - testGlyphIndex: 222
+    resolutionIndex: 5
+    testWindowIndex: 29
+  - testGlyphIndex: 222
+    resolutionIndex: 5
+    testWindowIndex: 31
+  - testGlyphIndex: 223
+    resolutionIndex: 2
+    testWindowIndex: 27
+  - testGlyphIndex: 223
+    resolutionIndex: 3
+    testWindowIndex: 4
+  - testGlyphIndex: 223
+    resolutionIndex: 4
+    testWindowIndex: 7
+  - testGlyphIndex: 223
+    resolutionIndex: 4
+    testWindowIndex: 8
+  - testGlyphIndex: 223
+    resolutionIndex: 5
+    testWindowIndex: 4
+  - testGlyphIndex: 223
+    resolutionIndex: 5
+    testWindowIndex: 7
+  - testGlyphIndex: 223
+    resolutionIndex: 5
+    testWindowIndex: 8
+  - testGlyphIndex: 223
+    resolutionIndex: 5
+    testWindowIndex: 27
+  - testGlyphIndex: 226
+    resolutionIndex: 4
+    testWindowIndex: 6
+  - testGlyphIndex: 226
+    resolutionIndex: 5
+    testWindowIndex: 6
+  - testGlyphIndex: 227
+    resolutionIndex: 3
+    testWindowIndex: 19
+  - testGlyphIndex: 227
+    resolutionIndex: 4
+    testWindowIndex: 19
+  - testGlyphIndex: 227
+    resolutionIndex: 5
+    testWindowIndex: 19
+  - testGlyphIndex: 228
+    resolutionIndex: 2
+    testWindowIndex: 15
+  - testGlyphIndex: 228
+    resolutionIndex: 3
+    testWindowIndex: 15
+  - testGlyphIndex: 228
+    resolutionIndex: 4
+    testWindowIndex: 15
+  - testGlyphIndex: 228
+    resolutionIndex: 5
+    testWindowIndex: 15
+  - testGlyphIndex: 230
+    resolutionIndex: 2
+    testWindowIndex: 2
+  - testGlyphIndex: 230
+    resolutionIndex: 2
+    testWindowIndex: 16
+  - testGlyphIndex: 230
+    resolutionIndex: 2
+    testWindowIndex: 27
+  - testGlyphIndex: 230
+    resolutionIndex: 2
+    testWindowIndex: 31
+  - testGlyphIndex: 230
+    resolutionIndex: 3
+    testWindowIndex: 27
+  - testGlyphIndex: 230
+    resolutionIndex: 3
+    testWindowIndex: 31
+  - testGlyphIndex: 230
+    resolutionIndex: 4
+    testWindowIndex: 27
+  - testGlyphIndex: 230
+    resolutionIndex: 4
+    testWindowIndex: 31
+  - testGlyphIndex: 230
+    resolutionIndex: 5
+    testWindowIndex: 27
+  - testGlyphIndex: 231
+    resolutionIndex: 2
+    testWindowIndex: 0
+  - testGlyphIndex: 231
+    resolutionIndex: 2
+    testWindowIndex: 19
+  - testGlyphIndex: 231
+    resolutionIndex: 3
+    testWindowIndex: 19
+  - testGlyphIndex: 231
+    resolutionIndex: 5
+    testWindowIndex: 0
+  - testGlyphIndex: 231
+    resolutionIndex: 5
+    testWindowIndex: 19
+  - testGlyphIndex: 233
+    resolutionIndex: 2
+    testWindowIndex: 11
+  - testGlyphIndex: 233
+    resolutionIndex: 2
+    testWindowIndex: 12
+  - testGlyphIndex: 233
+    resolutionIndex: 2
+    testWindowIndex: 16
+  - testGlyphIndex: 233
+    resolutionIndex: 2
+    testWindowIndex: 32
+  - testGlyphIndex: 233
+    resolutionIndex: 3
+    testWindowIndex: 11
+  - testGlyphIndex: 233
+    resolutionIndex: 3
+    testWindowIndex: 12
+  - testGlyphIndex: 233
+    resolutionIndex: 3
+    testWindowIndex: 16
+  - testGlyphIndex: 233
+    resolutionIndex: 3
+    testWindowIndex: 21
+  - testGlyphIndex: 233
+    resolutionIndex: 4
+    testWindowIndex: 0
+  - testGlyphIndex: 233
+    resolutionIndex: 4
+    testWindowIndex: 11
+  - testGlyphIndex: 233
+    resolutionIndex: 4
+    testWindowIndex: 12
+  - testGlyphIndex: 233
+    resolutionIndex: 4
+    testWindowIndex: 21
+  - testGlyphIndex: 233
+    resolutionIndex: 5
+    testWindowIndex: 2
+  - testGlyphIndex: 233
+    resolutionIndex: 5
+    testWindowIndex: 11
+  - testGlyphIndex: 233
+    resolutionIndex: 5
+    testWindowIndex: 12
+  - testGlyphIndex: 234
+    resolutionIndex: 2
+    testWindowIndex: 0
+  - testGlyphIndex: 234
+    resolutionIndex: 4
+    testWindowIndex: 0
+  - testGlyphIndex: 237
+    resolutionIndex: 2
+    testWindowIndex: 19
+  - testGlyphIndex: 237
+    resolutionIndex: 3
+    testWindowIndex: 19
+  - testGlyphIndex: 237
+    resolutionIndex: 4
+    testWindowIndex: 9
+  - testGlyphIndex: 237
+    resolutionIndex: 4
+    testWindowIndex: 19
+  - testGlyphIndex: 237
+    resolutionIndex: 4
+    testWindowIndex: 26
+  - testGlyphIndex: 237
+    resolutionIndex: 5
+    testWindowIndex: 9
+  - testGlyphIndex: 237
+    resolutionIndex: 5
+    testWindowIndex: 19
+  - testGlyphIndex: 238
+    resolutionIndex: 1
+    testWindowIndex: 7
+  - testGlyphIndex: 238
+    resolutionIndex: 2
+    testWindowIndex: 7
+  - testGlyphIndex: 238
+    resolutionIndex: 3
+    testWindowIndex: 27
+  - testGlyphIndex: 238
+    resolutionIndex: 4
+    testWindowIndex: 27
+  - testGlyphIndex: 238
+    resolutionIndex: 5
+    testWindowIndex: 7
+  - testGlyphIndex: 239
+    resolutionIndex: 2
+    testWindowIndex: 9
+  - testGlyphIndex: 239
+    resolutionIndex: 3
+    testWindowIndex: 9
+  - testGlyphIndex: 239
+    resolutionIndex: 4
+    testWindowIndex: 9
+  - testGlyphIndex: 239
+    resolutionIndex: 5
+    testWindowIndex: 9
+  - testGlyphIndex: 240
+    resolutionIndex: 5
+    testWindowIndex: 6
+  - testGlyphIndex: 243
+    resolutionIndex: 3
+    testWindowIndex: 4
+  - testGlyphIndex: 243
+    resolutionIndex: 4
+    testWindowIndex: 14
+  - testGlyphIndex: 243
+    resolutionIndex: 5
+    testWindowIndex: 1
+  - testGlyphIndex: 243
+    resolutionIndex: 5
+    testWindowIndex: 8
+  - testGlyphIndex: 243
+    resolutionIndex: 5
+    testWindowIndex: 14
+  - testGlyphIndex: 244
+    resolutionIndex: 3
+    testWindowIndex: 3
+  - testGlyphIndex: 245
+    resolutionIndex: 2
+    testWindowIndex: 14
+  - testGlyphIndex: 245
+    resolutionIndex: 3
+    testWindowIndex: 30
+  - testGlyphIndex: 245
+    resolutionIndex: 4
+    testWindowIndex: 14
+  - testGlyphIndex: 245
+    resolutionIndex: 5
+    testWindowIndex: 8
+  - testGlyphIndex: 245
+    resolutionIndex: 5
+    testWindowIndex: 12
+  - testGlyphIndex: 245
+    resolutionIndex: 5
+    testWindowIndex: 14
+  - testGlyphIndex: 246
+    resolutionIndex: 5
+    testWindowIndex: 3
+  - testGlyphIndex: 249
+    resolutionIndex: 3
+    testWindowIndex: 17
+  - testGlyphIndex: 249
+    resolutionIndex: 4
+    testWindowIndex: 10
+  - testGlyphIndex: 250
+    resolutionIndex: 2
+    testWindowIndex: 13
+  - testGlyphIndex: 250
+    resolutionIndex: 2
+    testWindowIndex: 34
+  - testGlyphIndex: 250
+    resolutionIndex: 3
+    testWindowIndex: 13
+  - testGlyphIndex: 250
+    resolutionIndex: 3
+    testWindowIndex: 34
+  - testGlyphIndex: 250
+    resolutionIndex: 4
+    testWindowIndex: 13
+  - testGlyphIndex: 250
+    resolutionIndex: 5
+    testWindowIndex: 13
+  - testGlyphIndex: 250
+    resolutionIndex: 5
+    testWindowIndex: 34
+  - testGlyphIndex: 254
+    resolutionIndex: 2
+    testWindowIndex: 26
+  - testGlyphIndex: 254
+    resolutionIndex: 3
+    testWindowIndex: 26
+  - testGlyphIndex: 254
+    resolutionIndex: 5
+    testWindowIndex: 26
+  - testGlyphIndex: 260
+    resolutionIndex: 3
+    testWindowIndex: 1
+  - testGlyphIndex: 260
+    resolutionIndex: 4
+    testWindowIndex: 1
+  - testGlyphIndex: 260
+    resolutionIndex: 4
+    testWindowIndex: 9
+  - testGlyphIndex: 261
+    resolutionIndex: 3
+    testWindowIndex: 5
+  - testGlyphIndex: 261
+    resolutionIndex: 4
+    testWindowIndex: 5
+  - testGlyphIndex: 261
+    resolutionIndex: 5
+    testWindowIndex: 5
+  - testGlyphIndex: 263
+    resolutionIndex: 2
+    testWindowIndex: 15
+  - testGlyphIndex: 263
+    resolutionIndex: 5
+    testWindowIndex: 15
+  - testGlyphIndex: 264
+    resolutionIndex: 1
+    testWindowIndex: 3
+  - testGlyphIndex: 264
+    resolutionIndex: 2
+    testWindowIndex: 13
+  - testGlyphIndex: 264
+    resolutionIndex: 2
+    testWindowIndex: 37
+  - testGlyphIndex: 264
+    resolutionIndex: 3
+    testWindowIndex: 20
+  - testGlyphIndex: 264
+    resolutionIndex: 3
+    testWindowIndex: 37
+  - testGlyphIndex: 264
+    resolutionIndex: 4
+    testWindowIndex: 13
+  - testGlyphIndex: 264
+    resolutionIndex: 4
+    testWindowIndex: 20
+  - testGlyphIndex: 264
+    resolutionIndex: 5
+    testWindowIndex: 13
+  - testGlyphIndex: 264
+    resolutionIndex: 5
+    testWindowIndex: 20
+  - testGlyphIndex: 264
+    resolutionIndex: 5
+    testWindowIndex: 37
+  - testGlyphIndex: 265
+    resolutionIndex: 2
+    testWindowIndex: 39
+  - testGlyphIndex: 265
+    resolutionIndex: 3
+    testWindowIndex: 39
+  - testGlyphIndex: 265
+    resolutionIndex: 4
+    testWindowIndex: 39
+  - testGlyphIndex: 265
+    resolutionIndex: 5
+    testWindowIndex: 39
+  - testGlyphIndex: 266
+    resolutionIndex: 3
+    testWindowIndex: 22
+  - testGlyphIndex: 266
+    resolutionIndex: 4
+    testWindowIndex: 22
+  - testGlyphIndex: 266
+    resolutionIndex: 5
+    testWindowIndex: 22
+  - testGlyphIndex: 268
+    resolutionIndex: 4
+    testWindowIndex: 17
+  - testGlyphIndex: 268
+    resolutionIndex: 5
+    testWindowIndex: 17
+  - testGlyphIndex: 269
+    resolutionIndex: 2
+    testWindowIndex: 20
+  - testGlyphIndex: 269
+    resolutionIndex: 3
+    testWindowIndex: 20
+  - testGlyphIndex: 269
+    resolutionIndex: 4
+    testWindowIndex: 20
+  - testGlyphIndex: 269
+    resolutionIndex: 5
+    testWindowIndex: 20
+  - testGlyphIndex: 270
+    resolutionIndex: 3
+    testWindowIndex: 10
+  - testGlyphIndex: 270
+    resolutionIndex: 4
+    testWindowIndex: 10
+  - testGlyphIndex: 270
+    resolutionIndex: 5
+    testWindowIndex: 7
+  - testGlyphIndex: 270
+    resolutionIndex: 5
+    testWindowIndex: 10
+  - testGlyphIndex: 270
+    resolutionIndex: 5
+    testWindowIndex: 26
+  - testGlyphIndex: 271
+    resolutionIndex: 4
+    testWindowIndex: 0
+  - testGlyphIndex: 271
+    resolutionIndex: 5
+    testWindowIndex: 0
+  - testGlyphIndex: 271
+    resolutionIndex: 5
+    testWindowIndex: 32
+  - testGlyphIndex: 272
+    resolutionIndex: 4
+    testWindowIndex: 2
+  - testGlyphIndex: 272
+    resolutionIndex: 5
+    testWindowIndex: 2
+  - testGlyphIndex: 275
+    resolutionIndex: 3
+    testWindowIndex: 4
+  - testGlyphIndex: 275
+    resolutionIndex: 5
+    testWindowIndex: 4
+  - testGlyphIndex: 276
+    resolutionIndex: 1
+    testWindowIndex: 27
+  - testGlyphIndex: 276
+    resolutionIndex: 2
+    testWindowIndex: 27
+  - testGlyphIndex: 276
+    resolutionIndex: 3
+    testWindowIndex: 17
+  - testGlyphIndex: 276
+    resolutionIndex: 3
+    testWindowIndex: 27
+  - testGlyphIndex: 276
+    resolutionIndex: 4
+    testWindowIndex: 17
+  - testGlyphIndex: 276
+    resolutionIndex: 5
+    testWindowIndex: 17
+  - testGlyphIndex: 276
+    resolutionIndex: 5
+    testWindowIndex: 27
+  - testGlyphIndex: 277
+    resolutionIndex: 2
+    testWindowIndex: 9
+  - testGlyphIndex: 277
+    resolutionIndex: 2
+    testWindowIndex: 36
+  - testGlyphIndex: 277
+    resolutionIndex: 3
+    testWindowIndex: 36
+  - testGlyphIndex: 277
+    resolutionIndex: 4
+    testWindowIndex: 9
+  - testGlyphIndex: 277
+    resolutionIndex: 4
+    testWindowIndex: 36
+  - testGlyphIndex: 277
+    resolutionIndex: 5
+    testWindowIndex: 36
+  - testGlyphIndex: 278
+    resolutionIndex: 3
+    testWindowIndex: 7
+  - testGlyphIndex: 278
+    resolutionIndex: 3
+    testWindowIndex: 33
+  - testGlyphIndex: 278
+    resolutionIndex: 4
+    testWindowIndex: 7
+  - testGlyphIndex: 278
+    resolutionIndex: 4
+    testWindowIndex: 10
+  - testGlyphIndex: 278
+    resolutionIndex: 5
+    testWindowIndex: 7
+  - testGlyphIndex: 278
+    resolutionIndex: 5
+    testWindowIndex: 17
+  - testGlyphIndex: 281
+    resolutionIndex: 2
+    testWindowIndex: 13
+  - testGlyphIndex: 281
+    resolutionIndex: 2
+    testWindowIndex: 29
+  - testGlyphIndex: 281
+    resolutionIndex: 3
+    testWindowIndex: 5
+  - testGlyphIndex: 281
+    resolutionIndex: 3
+    testWindowIndex: 29
+  - testGlyphIndex: 281
+    resolutionIndex: 5
+    testWindowIndex: 5
+  - testGlyphIndex: 281
+    resolutionIndex: 5
+    testWindowIndex: 29
+  - testGlyphIndex: 284
+    resolutionIndex: 5
+    testWindowIndex: 9
+  - testGlyphIndex: 285
+    resolutionIndex: 4
+    testWindowIndex: 2
+  - testGlyphIndex: 285
+    resolutionIndex: 5
+    testWindowIndex: 2
+  - testGlyphIndex: 287
+    resolutionIndex: 2
+    testWindowIndex: 55
+  - testGlyphIndex: 287
+    resolutionIndex: 3
+    testWindowIndex: 4
+  - testGlyphIndex: 289
+    resolutionIndex: 5
+    testWindowIndex: 7
+  - testGlyphIndex: 289
+    resolutionIndex: 5
+    testWindowIndex: 18
+  - testGlyphIndex: 290
+    resolutionIndex: 2
+    testWindowIndex: 24
+  - testGlyphIndex: 290
+    resolutionIndex: 4
+    testWindowIndex: 24
+  - testGlyphIndex: 290
+    resolutionIndex: 4
+    testWindowIndex: 40
+  - testGlyphIndex: 290
+    resolutionIndex: 5
+    testWindowIndex: 24
+  - testGlyphIndex: 290
+    resolutionIndex: 5
+    testWindowIndex: 40
+  - testGlyphIndex: 293
+    resolutionIndex: 3
+    testWindowIndex: 0
+  - testGlyphIndex: 293
+    resolutionIndex: 4
+    testWindowIndex: 0
+  - testGlyphIndex: 294
+    resolutionIndex: 4
+    testWindowIndex: 10
+  - testGlyphIndex: 294
+    resolutionIndex: 5
+    testWindowIndex: 10
+--- !u!4 &1635227570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635227568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1653862682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1653862685}
+  - component: {fileID: 1653862684}
+  - component: {fileID: 1653862683}
+  m_Layer: 0
+  m_Name: Debug Window
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1653862683
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653862682}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1653862684
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653862682}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1653862685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653862682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2057096365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2057096370}
+  - component: {fileID: 2057096369}
+  - component: {fileID: 2057096368}
+  - component: {fileID: 2057096367}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2057096367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057096365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dcd5e0ba792c82428fa55c0ff15b43d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 30
+  zoomSpeed: 0.4
+  zoomToMouse: 1
+  zoomRange: {x: 0.0001, y: 1000}
+--- !u!81 &2057096368
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057096365}
+  m_Enabled: 1
+--- !u!20 &2057096369
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057096365}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 0.75
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &2057096370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057096365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,912 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &382440009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 382440013}
+  - component: {fileID: 382440012}
+  - component: {fileID: 382440011}
+  - component: {fileID: 382440010}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &382440010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382440009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dcd5e0ba792c82428fa55c0ff15b43d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomSpeed: 0.15
+  zoomRange: {x: 0.0001, y: 1000}
+  zoomToMouse: 1
+--- !u!81 &382440011
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382440009}
+  m_Enabled: 1
+--- !u!20 &382440012
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382440009}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &382440013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382440009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &412430958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 412430960}
+  - component: {fileID: 412430959}
+  m_Layer: 0
+  m_Name: Text (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &412430959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412430958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c575c1dfab89f334b825c0bb9e214120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeface: 10
+  variant: 1
+  displayString: "### Cmap\r\nIn fact I\u2019m curious to see how this would look
+    if we actually wrote some words with it, so let\u2019s take a quick detour to
+    implement that before we worry about what\u2019s \r\ngoing wrong here.\r\nSo
+    I\u2019ve just created a string that says \u201CHello World!\u201D, and we simply
+    go through each character in the string, and of course as humans we think of
+    these as letters, but \r\nto the computer it\u2019s just a number. In particular
+    it\u2019s using the \u2018Unicode\u2019 text encoding standard, and so I\u2019m
+    just using that number as an index into the array of glyphs that \r\nwe\u2019ve
+    loaded in.\r\nSo we draw each of those, and offset them each by some hardcoded
+    amount, because I still need to figure out where letter spacing is stored in
+    the font file. Alright, let\u2019s \r\ntake a look at the result.\r\nOkay the
+    letter spacing is too small, so I\u2019ll just increase that quickly, but unfortunately
+    the text is still not particularly comprehensible. Clearly the glyphs in the
+    font \r\nare not in the same order as unicode \u2014 which makes sense actually,
+    since different fonts support different subsets of characters, so there\u2019s
+    never going to be a 1 to 1 mapping.\r\nInstead, the font file needs to include
+    a character map, to tell us which glyph indices map to which unicode values,
+    or some other established encoding standard.\r\nThis part seems like a bit of
+    a pain because there are 9 different formats in which this mapping information
+    can be stored. Although, to my relief, it does admit that many \r\nof these are
+    either obsolete, or were designed to meet anticipated needs which never materialized.
+    And reading a bit further, it seems that 4 and 12 are the most important \r\nones
+    to cover. So I\u2019m going to start with those, and if we run into any fonts
+    using other formats in the future, they can always be added in then of course.\r\nSo
+    here\u2019s the code I\u2019ve written to handle this. And I\u2019m not going
+    to bore you with the details, all it\u2019s doing is looking up, in a slightly
+    convoluted way, the unicode value \r\ncorresponding to each glyph index.\r\nUsing
+    that information, I\u2019ve then just set up a little dictionary, which allows
+    us to retrieve the correct glyph based on this unicode value that we have.\r\nAnd
+    now we can display our little Hello World message. Some of the letters are a
+    bit strange-looking, but others are extremely stylish. I do believe this could
+    be the \r\nfont of the future.\r\nBut we should probably try to get these beziers
+    rendering as intended, so let\u2019s focus on that next. By the way, if you\u2019re
+    interested in learning much more about beziers, I \r\ndo highly recommend watching
+    the Beauty of Bezier Curves if you have not already, there\u2019s a lot of fascinating
+    information in there, as well as in the sequel \u2014 the continuity \r\nof curves."
+  colour: {r: 0.54901963, g: 0.98039216, b: 0.85509914, a: 0}
+  layoutSettings:
+    FontSize: 0.2
+    LineSpacing: 1
+    LetterSpacing: 1
+    WordSpacing: 1
+--- !u!4 &412430960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412430958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.76, y: -28.41, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &489732697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 489732699}
+  - component: {fileID: 489732698}
+  m_Layer: 0
+  m_Name: Text (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &489732698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489732697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c575c1dfab89f334b825c0bb9e214120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeface: 6
+  variant: 1
+  displayString: "### Drawing a Glyph\r\nAlright, I\u2019m excited to see what comes
+    out of this \u2014 so back over here I\u2019ve just made a dictionary for mapping
+    table tags to locations, which we can use to set \r\nthe reader\u2019s position
+    to the start of the glyph table, and then simply read in the first glyph, and
+    print out its data.\r\nSo let\u2019s what that looks like quickly. Okay, that
+    seems promising\u2026 but we won\u2019t really know if it\u2019s nonsense or
+    not until we draw it. So I\u2019m going to go and plot \r\nthese points\u2026
+    And here they are! I\u2019m not quite sure what this is supposed to be, but I\u2019m
+    sure it will become clear once we draw in the contours.\r\nIt\u2019s looking
+    a little\u2026 worse for wear, but I do believe it\u2019s the missing character
+    glyph \u2014 and I actually remember now reading that it\u2019s required to be
+    at the very \r\nstart of the glyph table, so it makes sense that we found it
+    first. I just need to iron out some bugs clearly, so I\u2019ve been fiddling
+    with the code a bit, and here\u2019s \r\nhow it\u2019s working now.\r\nWe\u2019re
+    looping over all the end indices, and in the loop I\u2019m just creating this
+    little window into the array, where we can only see the points in the current
+    contour, \r\nbecause somehow I was getting confused before \u2014 and then we
+    simply draw lines between them, looping back to the first point in the contour
+    to close the contour \r\nat the end.\r\nAlright, let\u2019s try it out \u2014
+    and that\u2019s looking much better!"
+  colour: {r: 0.8275974, g: 0.6462264, b: 1, a: 0}
+  layoutSettings:
+    FontSize: 0.2
+    LineSpacing: 1
+    LetterSpacing: 1
+    WordSpacing: 1
+--- !u!4 &489732699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489732697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.76, y: -15.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &738717139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 738717141}
+  - component: {fileID: 738717140}
+  m_Layer: 0
+  m_Name: Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &738717140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738717139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c575c1dfab89f334b825c0bb9e214120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeface: 1
+  variant: 1
+  displayString: "### Simple Glyphs\r\nI\u2019ve spotted the glyph table entry over
+    here, which is pointing us to byte location 35436, so that\u2019s where we\u2019re
+    headed next! \r\nLet\u2019s take a quick look at the manual first though \u2014
+    and it looks like the first bit of information we\u2019ll be given is the number
+    of contours that make up \r\nthe first glyph in the table. Interestingly, that
+    value can be negative, which would indicate that this is a \u2018compound\u2019
+    glyph made up of other glyphs, \r\nbut let\u2019s worry about that later!\r\nWe
+    then have a bunch of FWords, which was an interesting name to choose \u2014 but
+    I know from this other table that they\u2019re really just 16bit integers as
+    well, \r\nand so we could get the bounding box of the glyph from these entries
+    here if we wanted.\r\nFollowing that comes the data for actually constructing
+    the glyph \u2014 and I can see some x and y coordinates in here, which I\u2019m
+    excited to get get my hands \r\non. Although we should take note that these coordinates
+    are relative to the previous coordinate, so they\u2019re more like offsets I
+    guess we could say. These \r\ncan actually be either in either an 8bit or 16bit
+    format, which I assume these flags here are probably going to tell us.\r\nThen
+    there\u2019s also an array of instructions, but as I mentioned at the start,
+    we\u2019re not going to be worrying about that stuff. And finally, or I guess
+    firstly \r\n\u2014 I\u2019m not sure why I read this table backwards \u2014 we
+    have indices for the end points of each contour.\r\nSo if I\u2019m understanding
+    this correctly, we\u2019re going to read in a bunch of points, and then say we
+    get two contour end indices \u2014 like 3, and 6 for example \r\n\u2014that just
+    means that the first contour connects points 0, 1, 2, 3 and back to 0. While
+    the second contour connects points 4, 5, 6, and back to 4.\r\nThat seems easy
+    enough, so the other thing to wrap our heads around is that 8bit flag value we
+    saw. Although only 6 of the bits are actually used. Now we\u2019re \r\ngoing
+    to have one of these for each point, and according to the guide, bits 1 and 2
+    are going to tell us whether the offsets for that point are stored in \r\nan
+    unsigned 1 byte format, or a signed 2 byte format.\r\nThen, getting just slightly
+    convoluted here, bits 4 and 5 have two different meanings, depending on whether
+    the 1 byte, or 2 byte representation is being \r\nused. In the first case, it
+    tells us whether that byte should be considered positive or negative. And in
+    the second case, that\u2019s not necessary since the \r\nsign is included in
+    the offset itself, and so it instead tells us whether or not we should skip the
+    offset. That way, if the offset is zero, it doesn\u2019t have \r\nto actually
+    be stored in the file. So we can see there\u2019s some basic compression happening
+    here.\r\nOn that note, let\u2019s take a look at bit 3. If this is on, it tells
+    us to read the next byte in the file, to find out how many times this flag should
+    be repeated, \r\nso that it doesn\u2019t have to waste space actually storing
+    repeated instances of the same flag.\r\nFinally, bit 0 tells us whether a point
+    is on the curve or off the curve \u2014 and I\u2019m not exactly sure what that\u2019s
+    for right now, but we can worry about it later \r\n\u2014 let\u2019s first just
+    get these points loaded in.\r\nBy the way, to actually test if a particular bit
+    in the flag is on or off \u2014 I\u2019m using this bit of code here which simply
+    shifts all the bits over so that the \r\nbit we\u2019re interested in is in the
+    first spot, then masks it out, meaning all the other bits get turned off, and
+    finally checks if the resulting value is \r\nequal to 1.\r\nAlright, and then
+    here\u2019s a function I\u2019ve been working on for actually loading one of
+    these simple glyphs. And this does exactly what we just talked about: \r\nit
+    reads in the contourEndIndices, then reads in all of the flag values \u2014 of
+    course checking each of them to see if they should be repeated some number of
+    \r\ntimes \u2014 and finally reading in the x and y coordinates, before simply
+    returning all of that data.\r\nAnd for reading in the coordinates, I have other
+    little function here \u2014 where each coordinate starts out with the value of
+    the previous coordinate, and \r\nthen we grab the flag for this point, and depending
+    on that, we either read in a single byte for the offset, and add or subtract
+    it based again on what the \r\nflag tells us to do; or we read in a 16bit offset,
+    but only if the flag isn\u2019t telling us to skip this one."
+  colour: {r: 0.4764151, g: 0.7317893, b: 1, a: 0}
+  layoutSettings:
+    FontSize: 0.2
+    LineSpacing: 1
+    LetterSpacing: 1
+    WordSpacing: 1
+--- !u!4 &738717141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738717139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.76, y: -6.16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &827301443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 827301445}
+  - component: {fileID: 827301444}
+  m_Layer: 0
+  m_Name: Text (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &827301444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827301443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c575c1dfab89f334b825c0bb9e214120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeface: 8
+  variant: 1
+  displayString: "### All the Glyphs\r\nOne glyph is not enough though, I want all
+    the glyphs! To do this, we just hop over to the \u2018maxp\u2019 table, where
+    we can look up the total number of glyphs in the font. Then we jump across to
+    the \u2018head\u2019 \r\ntable, somersault over several entries we don\u2019t
+    care about right now, and possibly never will, to find out whether the locations
+    of the glyphs are stored in a 2 byte or 4 byte format \u2014 and finally we can
+    \r\ndive into the \u2018loca\u2019 table, from which we can extract the locations
+    of all of the glyphs in the glyf table.\r\nWith that, we can now read in all
+    of the points and contours for all of the glyphs in the font. Barring the compound
+    glyphs since we haven\u2019t got around to dealing with those yet.\r\nI must
+    admit, even though parsing a font file must be pretty low on the list of thrilling
+    things one could do with one\u2019s day, I\u2019m honestly pretty excited seeing
+    these letters appearing here. It\u2019s just kind \r\nof satisfying I guess to
+    see what exactly is inside these files that I\u2019ve blindly used for so many
+    years.\r\nAnyway, let\u2019s zoom in on one of these glyphs, such as the big
+    B for instance, we can see that while the glyphs are obviously very beautiful,
+    they are perhaps, a bit blocky. So I believe our next step should \r\nbe to bezier
+    these bad boys."
+  colour: {r: 0.98039216, g: 0.65265393, b: 0.54901963, a: 0}
+  layoutSettings:
+    FontSize: 0.2
+    LineSpacing: 1
+    LetterSpacing: 1
+    WordSpacing: 1
+--- !u!4 &827301445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827301443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.76, y: -18.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &976675004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 976675006}
+  - component: {fileID: 976675005}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &976675005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976675004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c575c1dfab89f334b825c0bb9e214120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeface: 0
+  variant: 1
+  displayString: "# Script\r\n### Intro\r\nHello everyone, and welcome to another
+    episode of Coding Adventures. Today, I\u2019d like to try and render some text,
+    since it\u2019s one of those things that I always \r\njust take for granted.\r\nTo
+    begin with, we\u2019re going to need a font. And I\u2019ve just grabbed the first
+    one I found on my hard-drive, which happens to be JetBrainsMono-Bold. So let
+    me \r\nopen that up in a text editor just to see what\u2019s inside, and not
+    unexpectedly, the raw contents is highly un-illuminating to say the least, so
+    we\u2019re going \r\nto need to find some kind of guide for decoding this.\r\nThis
+    is a ttf, or TrueType font file, which is a format, I\u2019m told, developed
+    by Apple in the late 1980s. And so, I had a look on their developer website,
+    and \r\nlocated this handy reference manual. Hopefully it\u2019s nice and simple
+    to understand.\r\nOkay, I\u2019ve just been skimming through it a little, and
+    I\u2019m becoming increasingly baffled and bewildered by all the mysterious diagrams,
+    the long lists of \r\ninstructions for the custom programming language it seems
+    to contain, not to mention unfamiliar terminology such as freedom vectors\u2026
+    \u2018ploopvalues\u2019, and \r\ntwilight zones\u2026 What is the twilight zone?
+    *\u201CIt is the middle ground between light and shadow\u201D* \u2014 You\u2019re
+    not helping!\r\nAfter slowing down a bit and reading more carefully though, I
+    realized that all of this complexity is focused on a single problem, which is
+    making sure that \r\nfonts are displayed clearly even at low screen or printing
+    resolutions, where unlucky scaling could cause one part of a letter to appear
+    twice as thick as \r\nanother, or diagonals to be filled in different patterns
+    for example, making the letters difficult make out.\r\nSo I don\u2019t think
+    it\u2019s something we need to worry about for our little experiment today at
+    least, which is definitely a relief!"
+  colour: {r: 1, g: 0.5990566, b: 0.5990566, a: 0}
+  layoutSettings:
+    FontSize: 0.2
+    LineSpacing: 1
+    LetterSpacing: 1
+    WordSpacing: 1
+--- !u!4 &976675006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976675004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.76, y: 4.67, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1465383964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1465383966}
+  - component: {fileID: 1465383965}
+  m_Layer: 0
+  m_Name: Text (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1465383965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465383964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c575c1dfab89f334b825c0bb9e214120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeface: 5
+  variant: 1
+  displayString: "### Implied Points\r\nBut for now, let\u2019s get back to our B.\r\nSo
+    first of all, we can that here where there ought to be a straight line, it\u2019s
+    treating this as a control point, and bending way from it. So it looks like the
+    glyphs aren\u2019t made \r\nentirely out of beziers as I assumed, but rather
+    have some ordinary line segments mixed in.\r\nAlso, taking another look at the
+    manual, it shows this example where we have a path made up of two consecutive
+    bezier curves. And what it\u2019s pointing out here, is that this \r\nshared
+    point between the two curves is exactly at the midpoint between the control points
+    of the two curves.\r\nThis is usually where you\u2019d want it to be, simply
+    because if it\u2019s not at the midpoint, we can see that we no longer get a
+    nice smooth join between the two curves. They become \r\ndiscontinuous. And so
+    what the manual recommends doing for these points that lie right in the middle,
+    is to save precious space by simply deleting them. As it puts it, the \r\nexistence
+    of that middle point is implied.\r\nSo, we\u2019re going to need to reconstruct
+    these implied points when we load the font. And I believe that this is where
+    that \u2018on curve\u2019 flag that we saw earlier is going to come \r\nin handy.
+    So in this example, points 1 and two would be flagged as \u2018off the curve\u2019
+    since they\u2019re what I\u2019ve been calling \u2018control points\u2019, whereas
+    points 0 and 3 would be on \r\nthe curve, since the curve actually touches them.\r\nWhat
+    we can do then is say that if we find two consecutive off-curve points, we\u2019ll
+    insert a new on-curve point between them. Also, just to turn everything into
+    beziers for \r\nconsistency\u2019s sake, let\u2019s also say that if we find
+    a straight line segment \u2014 which would be two consecutive on-curve points,
+    then we\u2019ll insert a new control point in between \r\nthem.\r\nAlright, so
+    I\u2019ve been writing some code to handle that quickly, which as we just talked
+    about simply checks if we have two consecutive on or off-curve points, and if
+    so, \r\nit inserts a new point in between them. And here\u2019s a quick test
+    to see if that\u2019s working as expected. So these are the on and off curve
+    points that are actually stored within \r\nthe font file for our letter B. And
+    then here are the implied on curve points that we\u2019ve now made explicit,
+    and finally, here\u2019s the extra points between the straight line segments,
+    \r\nto turn them into beziers.\r\nWith that, our code for drawing these curves
+    finally works as expected. So at this point we could even come in and edit the
+    glyphs if we wanted."
+  colour: {r: 0.98039216, g: 0.54901963, b: 0.5680552, a: 0}
+  layoutSettings:
+    FontSize: 0.2
+    LineSpacing: 1
+    LetterSpacing: 1
+    WordSpacing: 1
+--- !u!4 &1465383966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465383964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.76, y: -34.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1944395749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1944395751}
+  - component: {fileID: 1944395750}
+  m_Layer: 0
+  m_Name: Text (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1944395750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944395749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c575c1dfab89f334b825c0bb9e214120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeface: 9
+  variant: 0
+  displayString: "### Bezier Basics\r\nNow I\u2019ve babbled about beziers a bunch
+    before on this channel, but briefly \u2014 if we have two points, and want to
+    draw a curve between them \u2014 we \r\nneed at least one extra control point
+    to control how the curve should curve.\r\nNow to bring our currently invisible
+    curve to light, let\u2019s imagine a point A starting out at the start point,
+    and moving at a constant speed towards \r\nthe control point. From which, a second
+    point \u2014 point \u2018B\u2019 \u2014 moves simultaneously towards the end
+    point, in the same amount of time that it takes \r\nfor point A to complete it\u2019s
+    journey. Like this.\r\nThat\u2019s not terribly interesting, but like most things
+    in life, it can be made more exciting with the addition of lazers. So let\u2019s
+    draw a lazer-beam \r\nbetween points A and B. And that\u2019s a bit better already,
+    but for some added flair, let\u2019s then also leave a trail of ghosts of the
+    old beams behind\u2026 \r\nand now we\u2019re really getting somewhere.\r\nSo
+    the curve that these beams trace out is our bezier curve. And all we need now
+    is a way to describe this curve mathematically, which is surprisingly \r\neasy
+    to do. We just need to imagine one last travelling point \u2014 this one moving
+    from A to B, and also completing its journey in the same amount of \r\ntime as
+    A and B do theirs. Observing the path of this third point, we can see how it
+    travels perfectly along the curve.\r\nSo here\u2019s a little function to help
+    calculate the positions of these points. It takes in both the start position,
+    and the destination, as well as a \r\nsort of \u2018time\u2019 value, which can
+    be anywhere between 0 and 1, as measure of the progress of the journey.\r\nThe
+    point\u2019s position at the given time is then calculated as the starting point,
+    plus the offset that takes us from the start to the ending point, \r\nmultiplied
+    by this time progression value.\r\nFrom this linear interpolation, we can build
+    our Bezier interpolation, which just calculates these intermediate A and B points
+    like we saw, and then \r\ninterpolates between those to get the actual point
+    along the curve at the current time.\r\nSo, if we want to draw one of these curves,
+    one way to do it would be like this \u2014 simply chopping the curve up into
+    a bunch of discrete points based \r\non this resolution value, and then drawing
+    straight lines between them.\r\nSo just testing this out quickly \u2014 we can
+    see that with a resolution of 1 we of course just have a straight line; 2 gives
+    us just the faintest idea \r\nof a curve; and from there it quickly starts to
+    look pretty smooth.\r\nAnyway, let\u2019s get back to our blocky B \u2014 now
+    that we have beziers working \u2014 and I\u2019ll just quickly jump into the
+    code here, and modify it so that every \r\nset of 3 points in the contour now
+    gets drawn as a curve.\r\nAnd let\u2019s take a moment to admire how that looks.
+    Wait what\u2026\r\nYou know, it\u2019s actually kind of a funky design \u2014
+    if a bug can qualify as a design that is."
+  colour: {r: 0.98039216, g: 0.8669065, b: 0.54901963, a: 0}
+  layoutSettings:
+    FontSize: 0.225
+    LineSpacing: 1
+    LetterSpacing: 1
+    WordSpacing: 1
+--- !u!4 &1944395751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944395749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.76, y: -20.75, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2009519489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2009519491}
+  - component: {fileID: 2009519490}
+  m_Layer: 0
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2009519490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009519489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c575c1dfab89f334b825c0bb9e214120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeface: 7
+  variant: 1
+  displayString: "### Reading the Font Directory\r\nSo, let\u2019s move on to the
+    next section of the manual, which gives us this list of mandatory tables that
+    all fonts need to include, and I\u2019m most excited about this \u2018glyf\u2019
+    table, since that \r\nsounds like where the shapes are stored. But first we need
+    to figure out of course where the table is stored.\r\nOkay \u2014 this looks
+    promising! \u201CThe Font Directory is a guide to the contents of the font file\u201D.
+    Music to my ears.\r\nSo this is the very first block of data in the file, and
+    I don\u2019t think I really care about any of this, except for the number of
+    tables. So we\u2019re going to want to skip over one 32bit \r\ninteger, and then
+    read this 16bit integer.\r\nAnd here\u2019s some quick C# code for doing exactly
+    that. I\u2019m printing out the number of tables here by the way, just to make
+    sure it\u2019s a plausible value, which from the tables listed \r\nin the manual,
+    I\u2019m thinking would be somewhere between the mandatory 9 and around 50 at
+    a maximum maybe.\r\nSo let\u2019s run this quickly \u2014 and we can see the
+    number of tables is\u2026. 4352. How am I doing something wrong already?\r\nOokay,
+    I should probably have realized this myself, but I found the answer in this wiki
+    entry here \u2014 which is that the data is stored in a big-endian format, which
+    simply means that \r\nin our 16bit \u2014 or 2byte \u2014 value, the smaller
+    byte is stored first, and the bigger byte comes at the end. Whereas my computer
+    uses a little endian system, where the big byte comes \r\nfirst, and the little
+    byte is at the end.\r\nSo I\u2019ve quickly made this simple FontReader class,
+    which let\u2019s us read in a 16bit value, and have this conversion to little-endian
+    happen behind the scenes, so we don\u2019t need to worry \r\nabout it every time.
+    Alright, so using that, let\u2019s try running the program again \u2014 and now
+    the number of tables comes out as\u2026 17. Which is much more believable.\r\nThat
+    means we can proceed to the table directory. And what this gives us is a 4-letter
+    identifying tag for each table \u2014 and we\u2019ve briefly seen what those
+    look like already \u2014 and then \r\nalso the table\u2019s location in the file,
+    in the form of a byte offset.\r\nSo in the code I\u2019ve just added this little
+    loop over the total number of tables, and in there it\u2019s simply reading in
+    this metadata for each of them. Of course I\u2019ve had to expand our \r\nlittle
+    reader class in the process, with these two new functions for actually reading
+    a tag, and a 32bit integer. And you can see here my, possibly somewhat clunky
+    approach to reversing \r\nthe order of the bytes in there.\r\nSo, hopefully this
+    is going to work\u2026 Let\u2019s try running it, aand these tags look a little
+    strange. We seem to be getting a tiny head over here with a big question mark
+    mark next to \r\nit. Which does sum up how I\u2019m feeling right now. Oh wait!
+    I just realized that I forgot to skip over all that other stuff in that first
+    table that we didn\u2019t really care about. Let me \r\njust do that quickly
+    \u2014 I think it was 3 16bit values, so that\u2019s 6 bytes we want to hop over
+    here. Alright\u2026 And now\u2026 I think we\u2019ve got them!"
+  colour: {r: 0.47209862, g: 0.9716981, b: 0.61903965, a: 0}
+  layoutSettings:
+    FontSize: 0.225
+    LineSpacing: 1
+    LetterSpacing: 1
+    WordSpacing: 1
+--- !u!4 &2009519491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009519489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.76, y: 0.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

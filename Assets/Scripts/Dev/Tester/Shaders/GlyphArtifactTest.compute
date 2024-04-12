@@ -1,0 +1,85 @@
+#pragma kernel RunTest
+
+StructuredBuffer<float2> BezierData;
+StructuredBuffer<int> GlyphMetaData;
+RWStructuredBuffer<uint> ErrorCounter;
+float2 centre;
+float size;
+bool insideFlag;
+int testCaseIndex;
+int errorWeight;
+uint resolution;
+
+RWTexture2D<float4> DebugTex;
+
+#include "TextShaderTest_01.hlsl"
+
+[numthreads(8,8,1)]
+void RunTest (uint3 id : SV_DispatchThreadID)
+{
+	if (id.x >= resolution || id.y >= resolution) return;
+
+    // Calculate current pixel pos in the test window
+    // Note: offset y pos along the width of the window (to test a wider range of float values)
+    float2 uv = id.xy / (resolution - 1.0);
+    float2 bottomLeft = centre - size / 2;
+    float offsetY = uv.x * (size / resolution);
+    float2 testPos = bottomLeft + float2(uv.x * size, lerp(offsetY, size, uv.y));
+
+    float3 debugCol;
+    bool inside = isInside(testPos, 0, debugCol);
+  
+    if (inside != insideFlag)
+    {
+        InterlockedAdd(ErrorCounter[testCaseIndex], errorWeight);
+        DebugTex[id.xy] = float4(debugCol, 1);
+    }
+    else {
+        float3 col = inside;
+        DebugTex[id.xy] = float4(col, 1);
+    }
+    //
+}
+
+
+
+/*
+int testCaseIndex;
+int errorWeight;
+
+
+
+    StructuredBuffer<float2> BezierData;
+    StructuredBuffer<int> GlyphMetaData;
+
+    #pragma kernel RunTest
+    #include "TextShader.hlsl"
+
+    RWStructuredBuffer<uint> ErrorCounter;
+    RWTexture2D<float4> WindowDebugTexture;
+    bool windowIsInsideGlyph;
+    float2 windowCentre;
+    float windowSize;
+    uint resolution;
+
+    // Run for every pixel in the WindowDebugTexture
+    [numthreads(8,8,1)]
+    void RunTest (uint3 id : SV_DispatchThreadID)
+    {
+        if (id.x >= resolution || id.y >= resolution) return;
+
+        // Calculate current pixel pos in the test window
+        // Note: offset y pos along the width of the window (to test a wider range of float values)
+        float2 uv = id.xy / (resolution - 1.0);
+        float2 bottomLeft = windowCentre - windowSize / 2;
+        float offsetY = uv.x * (windowSize / resolution);
+        float2 testPos = bottomLeft + float2(uv.x * windowSize, lerp(offsetY, windowSize, uv.y));
+
+        // Run the test and record result in debug texture
+        bool insideResult = IsPointInsideGlyph(testPos);
+        WindowDebugTexture[id.xy] = float4((float3)insideResult, 1);
+
+        // If result doesn't match expected outcome, flag current test as failure
+        if (insideResult != windowIsInsideGlyph) TestFailed[0] = true;
+    }
+    */

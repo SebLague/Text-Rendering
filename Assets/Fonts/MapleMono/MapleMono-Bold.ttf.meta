@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 689b33ae7b862ba4096fe5f71fc1f64c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Maple Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 32d540c97d7163d4c8d62b24778dc25c, type: 3}
+  - {fileID: 12800000, guid: 58549bf27b7cc224db6ff90860cfcd7a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
